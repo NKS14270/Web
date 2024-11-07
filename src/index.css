@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    transform: translateY(-20px) scale(1.1);
+  }
+}
+
+@keyframes flower {
+  0% {
+    transform: translateY(0) rotate(0deg) scale(0.5);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh) rotate(360deg) scale(1.2);
+    opacity: 0;
+  }
+}
+
+.animate-flower {
+  animation: flower 15s linear infinite;
+}
+
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(0.7);
+  }
+}
+
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+  to {
+    transform: rotate(360deg) scale(1.1);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 10s linear infinite;
+}
+
+.center {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  background: radial-gradient(#ffa000, #ff6f00);
+  border-radius: 50%;
+  left: 30%;
+  top: 30%;
+  transform: translateZ(25px);
+  box-shadow: 0 0 30px rgba(255, 160, 0, 0.5);
+}
+
+@keyframes rotate3d {
+  from {
+    transform: rotateX(45deg) rotateY(0deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateX(45deg) rotateY(360deg) rotateZ(360deg);
+  }
+}
+
+.flowers {
+  position: relative;
+  transform: scale(0.7);
+}
+
+.flower {
+  position: relative;
+  transform-origin: center;
+  z-index: 10;
+  animation: growing 2s ease-out forwards;
+}
+
+.flower__leafs {
+  position: relative;
+  animation: blooming 2s ease-out forwards;
+  transform-origin: center;
+}
+
+.flower__leaf {
+  position: absolute;
+  width: 15vmin;
+  height: 25vmin;
+  background-color: #ffd700;
+  border-radius: 50% 50% 0 50%;
+  transform-origin: bottom center;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+  filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.3));
+}
+
+.flower__leaf--1 { transform: rotate(0deg); }
+.flower__leaf--2 { transform: rotate(90deg); }
+.flower__leaf--3 { transform: rotate(180deg); }
+.flower__leaf--4 { transform: rotate(270deg); }
+
+.flower__white-circle {
+  position: absolute;
+  width: 15vmin;
+  height: 15vmin;
+  background: radial-gradient(circle at center, white 0%, #ffd700 100%);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.4);
+}
+
+@keyframes blooming {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes growing {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+}
+
+.animate-heartbeat {
+  animation: heartbeat 1.5s ease-in-out infinite;
+}
