@@ -1,47 +1,57 @@
 import { PhotoCard } from './components/PhotoCard';
 import { FlowerBackground } from './components/FlowerBackground';
 import { Cake, Gift, PartyPopper, Stars } from 'lucide-react';
+import img1 from '/img/img1.jpeg';
+import img2 from '/img/img2.jpeg';
+import img3 from '/img/img3.jpeg';
+import img4 from '/img/img4.jpeg';
+import img5 from '/img/img5.jpeg';
+import img6 from '/img/img6.jpeg';
+import img7 from '/img/img7.jpeg';
+import img8 from '/img/img8.jpeg';
+import img9 from '/img/img9.jpeg';
+import img10 from '/img/img10.jpeg';
 
 const photos = [
   {
-    imageUrl: "img/img1.jpeg",
+    imageUrl: img1,
     message: "¡Feliz cumpleaños mi amor! Cada momento con vos es un regalo."
   },
   {
-    imageUrl: "img/img2.jpeg",
+    imageUrl: img2,
     message: "Me has mostrado que el amor verdadero se construye juntos, y eso me hace sentir todavia mas enamorado de vos, Gracias a vos creo que puedo ser mucho mejor."
   },
   {
-    imageUrl: "img/img3.jpeg",
+    imageUrl: img3,
     message: "Que este nuevo año de vida esté lleno de sonrisas, amor y momentos inolvidables juntos."
   },
   {
-    imageUrl: "img/img4.jpeg",
+    imageUrl: img4,
     message: "Tu alegría ilumina mi mundo. ¡Feliz cumpleaños, mi princesa!"
   },
   {
-    imageUrl: "img/img8.jpeg",
+    imageUrl: img8,
     message: "Deseo que cada meta que quieras en tu vida se haga realidad."
   },
   {
-    imageUrl: "img/img6.jpeg",
+    imageUrl: img6,
     message: "SoS el regalo más hermoso e increible que la vida pudo haber dado. ¡Feliz cumpleaños!"
   },
   {
-    imageUrl: "img/img7.jpeg",
+    imageUrl: img7,
     message: "Que este día esté lleno de sorpresas tan especiales como lo sos vos."
   },
   {
-    imageUrl: "img/img5.jpeg",
+    imageUrl: img5,
     message: "Tu presencia en mi vida es la que me esta guiando todos los días a intentar ser mejor, no puedo explicar las cosas que me haces sentir… pero mi amor por vos no depende de las circunstancias en las que estemos... estoy con vos no solo en los momentos felices, sino también en los más difíciles. Quiero compartir todo con vos, en cada paso del camino.Tu presencia en mi vida es la que me esta guiando todos los días a intentar ser mejor, no puedo explicar las cosas que me haces sentir… pero mi amor por vos no depende de las circunstancias en las que estemos... estoy con vos no solo en los momentos felices, sino también en los más difíciles. Quiero compartir todo con vos, en cada paso del camino."
   },
   {
-    imageUrl: "img/img9.jpeg",
+    imageUrl: img9,
     message: "Cada año que pasa me enamoro más de ti. ¡Feliz cumpleaños, amor!"
   },
   {
-    imageUrl: "img/img10.jpeg",
-    message: "Lo que más valoro de nuestra relación es cómo ambos nos apoyamos y nos nutrimos mutuamente. Aunque tengamos nuestros celos espero que nunca dejemos de tratar de dar la mejor versión de nosotros mismos."
+    imageUrl: img10,
+    message: "Lo que más valoro de nuestra relación es cómo ambos nos apoyamos y nos nutrimos mutuamente. Aunque tengamos nuestos celos espero que nunca dejemos de tratar de dar la mejor versión de nosotros mismos."
   }
 ];
 
