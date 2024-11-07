@@ -35,7 +35,7 @@ const photos = [
   },
   {
     imageUrl: img6,
-    message: "SoS el regalo más hermoso e increible que la vida pudo haber dado. ¡Feliz cumpleaños!"
+    message: "Sos el regalo más hermoso e increible que la vida pudo haber dado. ¡Feliz cumpleaños!"
   },
   {
     imageUrl: img7,
