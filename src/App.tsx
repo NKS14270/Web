@@ -43,7 +43,7 @@ const photos = [
   },
   {
     imageUrl: img5,
-    message: "Tu presencia en mi vida es la que me esta guiando todos los días a intentar ser mejor, no puedo explicar las cosas que me haces sentir… pero mi amor por vos no depende de las circunstancias en las que estemos... estoy con vos no solo en los momentos felices, sino también en los más difíciles. Quiero compartir todo con vos, en cada paso del camino.Tu presencia en mi vida es la que me esta guiando todos los días a intentar ser mejor, no puedo explicar las cosas que me haces sentir… pero mi amor por vos no depende de las circunstancias en las que estemos... estoy con vos no solo en los momentos felices, sino también en los más difíciles. Quiero compartir todo con vos, en cada paso del camino."
+    message: "Tu presencia en mi vida es la que me esta guiando todos los días a intentar ser mejor, no puedo explicar las cosas que me haces sentir… pero mi amor por vos no depende de las circunstancias en las que estemos... estoy con vos no solo en los momentos felices, sino también en los más difíciles. Quiero compartir todo con vos, en cada paso del camino."
   },
   {
     imageUrl: img9,
